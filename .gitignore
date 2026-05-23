@@ -1,0 +1,19 @@
+# Large model artifacts and checkpoints
+*.pt
+*.bin
+*.msgpack
+
+# Tokenizer artifacts that are generated locally
+*.model
+*.vocab
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Optional local data and outputs
+outputs/
+checkpoints/
